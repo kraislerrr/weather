@@ -12,6 +12,10 @@
         android:orientation="vertical">
 
 
+        <WebView
+            android:id="@+id/webViewya"
+            android:layout_width="match_parent"
+            android:layout_height="300px" />
 
         <WebView
             android:id="@+id/webView"
@@ -28,9 +32,10 @@
         <WebView
             android:id="@+id/webViewrp"
             android:layout_width="match_parent"
-            android:layout_height="200dp">
+            android:layout_height="match_parent">
 
         </WebView>
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
