@@ -15,12 +15,14 @@
         <WebView
             android:id="@+id/webViewya"
             android:layout_width="match_parent"
-            android:layout_height="300px" />
+            android:layout_height="0px"
+            android:layout_weight="0.3" />
 
         <WebView
             android:id="@+id/webView"
             android:layout_width="match_parent"
-            android:layout_height="400dp" >
+            android:layout_height="0dp"
+            android:layout_weight="1" >
 
         </WebView>
 
@@ -32,7 +34,8 @@
         <WebView
             android:id="@+id/webViewrp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="0dp"
+            android:layout_weight="0.3" >
 
         </WebView>
 
